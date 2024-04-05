@@ -11,7 +11,16 @@
 
 `$ weather-cli "New York"`
 
-## Example Response:
+## Output:
+```
++----------+------------------+-------+--------+
+| City     | Temperature (°F) | Wind  | Clouds |
++----------+------------------+-------+--------+
+| New York | 45.46            | 15.01 | 100    |
++----------+------------------+-------+--------+
+```
+
+## Example Weather JSON Response:
 `
 {"coord":{"lon":-74.006,"lat":40.7143},
     "weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],
